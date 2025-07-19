@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="zh-TW">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>辯論觀點摘要</title>
+    <style>
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+            line-height: 1.6;
+            background-color: #f4f4f4;
+            color: #333;
+            margin: 0;
+            padding: 20px;
+        }
+        .container {
+            max-width: 1200px;
+            margin: auto;
+            background: #fff;
+            padding: 20px;
+            border-radius: 8px;
+            box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+        }
+        h1, h2 {
+            text-align: center;
+            color: #2c3e50;
+        }
+        .debate-session {
+            border-bottom: 2px solid #eee;
+            padding-bottom: 20px;
+            margin-bottom: 20px;
+        }
+        .debate-session:last-child {
+            border-bottom: none;
+            margin-bottom: 0;
+        }
+        .video-link {
+            text-align: center;
+            margin-bottom: 20px;
+        }
+        .columns {
+            display: flex;
+            justify-content: space-between;
+            gap: 20px;
+            align-items: flex-start; /* Align items to the top */
+        }
+        .column {
+            flex: 1;
+            padding: 15px;
+            border: 1px solid #ddd;
+            border-radius: 5px;
+            background-color: #fafafa;
+            text-align: center; /* Center text and images */
+        }
+        .column img {
+            width: 150px; /* Fixed width */
+            height: 150px; /* Fixed height */
+            border-radius: 50%; /* Circular images */
+            object-fit: cover; /* Prevents distortion */
+            margin-bottom: 15px;
+            border: 3px solid #ddd;
+        }
+        .column h3 {
+            text-align: center;
+        }
+        ul {
+            padding-left: 0; /* Remove default padding */
+            list-style-type: none; /* Remove bullets */
+            text-align: left; /* Align text to the left */
+        }
+        li {
+            margin-bottom: 15px;
+        }
+        strong {
+            color: #34495e;
+            display: block;
+            margin-bottom: 5px;
+        }
+        /* Responsive design */
+        @media (max-width: 768px) {
+            .columns {
+                flex-direction: column;
+            }
+        }
+    </style>
+</head>
+<body>
+
+    <div class="container">
+        <h1>辯論觀點摘要</h1>
+
+        <!-- First Debate -->
+        <div class="debate-session">
+            <h2>主題：第七選舉區罷免說明會</h2>
+            <div class="video-link">
+                <a href="https://www.youtube.com/live/Mt-_pfuqrlk?si=yImVk76G5-pvjbMz" target="_blank">影音連結</a>
+            </div>
+            <div class="columns">
+                <div class="column">
+                    <img src="images/cao.jpg" alt="曹興誠先生照片">
+                    <h3>曹興誠先生 (罷免領銜人)</h3>
+                    <ul>
+                        <li>
+                            <strong>指控國民黨立委「親共賣台」：</strong>
+                            核心證據為傅崐萁總召帶隊會見中共統戰頭目王滬寧。認為此舉是親共行為，且回台後便推動有利中共的法案。
+                        </li>
+                        <li>
+                            <strong>批評「國會擴權法案」破壞民主：</strong>
+                            指稱國會改革是「擴權」，將使立法院變為「太上皇」機構，侵犯全民隱私，並可能將國家機密洩漏給北京，同時指控國民黨試圖癱瘓憲法法庭以廢除制衡。
+                        </li>
+                        <li>
+                            <strong>譴責立法程序不公與暴力：</strong>
+                            批評國民黨拋棄正常協商程序，以「暴力、專制」方式強行通過法案。並指出徐巧芯在過程中有咬人、踢人等暴力行為，已淪為傅崐萁的「鷹犬」。
+                        </li>
+                        <li>
+                            <strong>強調罷免是公民自發行動：</strong>
+                            反駁罷免由民進黨策動的說法，強調自身過去為藍營支持者，且行動主力來自「青鳥運動」的年輕人，是人民對立法院亂象的自發救國行動。
+                        </li>
+                    </ul>
+                </div>
+                <div class="column">
+                    <img src="images/hsu.jpg" alt="徐巧芯女士照片">
+                    <h3>徐巧芯女士 (被罷免人)</h3>
+                    <ul>
+                        <li>
+                            <strong>反駁「親共」指控，強調自己「反共」：</strong>
+                            表示長輩曾參與剿匪，自己也敬重國軍並為其爭取福利。反指曹興誠曾與中共高層會面，才是「舔共始祖」，並質疑為何不批評也曾訪陸的賴清德。
+                        </li>
+                        <li>
+                            <strong>辯護國會改革的必要性：</strong>
+                            主張國會改革是為有效監督政府、防止官員說謊，為民主國家常態。反擊稱曹興-誠反對是怕過往之事被揭露。
+                        </li>
+                        <li>
+                            <strong>質疑曹興誠的誠信與動機：</strong>
+                            質疑其捐款承諾未兌現，並批評他曾為避稅放棄國籍、入籍新加坡，是「中華民國的背骨仔」，現在的立場是投機行為。
+                        </li>
+                        <li>
+                            <strong>指控罷免為民進黨策動：</strong>
+                            稱民進黨總召柯建銘早已開始規劃罷免，曹興誠只是配合演出的「附隨組織」。她認為監督政府是立委天職，不應被抹黑為不愛國。
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+
+        <!-- Future debates go here -->
+
+    </div>
+
+</body>
+</html>
